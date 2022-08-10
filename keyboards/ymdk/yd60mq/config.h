@@ -23,6 +23,8 @@
 /* Set 0 if debouncing isn't needed */
 #define DEBOUNCE 5
 
+#define TAPPING_TERM 300
+
 /* Mechanical locking support. Use KC_LCAP, KC_LNUM or KC_LSCR instead in keymap */
 #define LOCKING_SUPPORT_ENABLE
 
@@ -30,7 +32,8 @@
 
 #define RGB_DI_PIN E2
 #define RGBLIGHT_ANIMATIONS
-#define RGBLIGHT_HUE_STEP 8
-#define RGBLIGHT_SAT_STEP 8
-#define RGBLIGHT_VAL_STEP 8
+#define RGBLIGHT_HUE_STEP 10
+#define RGBLIGHT_SAT_STEP 17
+#define RGBLIGHT_VAL_STEP 17
+#define RGBLIGHT_DEFAULT_HUE 201
 // RGBLED_NUM is defined in revisions
